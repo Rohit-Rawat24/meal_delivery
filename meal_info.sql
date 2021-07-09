@@ -1,9 +1,9 @@
-CREATE TABLE  meal_information (
+CREATE TABLE  meal_info (
     meal_id INT,
-    category VARCHAR(12), 
-    cuisine VARCHAR(11)); 
+    category VARCHAR(20),
+    cuisine VARCHAR(20)); 
    
-  INSERT INTO meal_information VALUES
+  INSERT INTO meal_info VALUES
     (1885,'Beverages','Thai'),
     (1993,'Beverages','Thai'),
     (2539,'Beverages','Thai'),
