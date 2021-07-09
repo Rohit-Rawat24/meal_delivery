@@ -2,6 +2,7 @@
 '''
 Importing pymongo
 '''
+import json
 import pymongo as pm
 client = pm.MongoClient()
 
@@ -12,6 +13,11 @@ client.list_database_names()
 db = client['mealsinfo']
 db.list_collection_names()
 meal_data = db["collection"]
+
+# Adding meal_info.json and inserting data in our collection
+with open("meal_info.json") as f:
+    file_data = json.load(f)
+meal_data.insert_many(file_data)
 
 # Implementing find_one
 
