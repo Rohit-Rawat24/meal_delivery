@@ -1,0 +1,7 @@
+
+Reva@1234
+Tnp@1234
+Infosys@1234 Info@1234
+Tcs@1234
+OraSql@123
+Mongo@123
