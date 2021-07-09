@@ -9,7 +9,7 @@ Every change done in Jupyter is being reflected in Compass.
 # Service Function
 ->Search meal by meal_id, cuisine or the category of meal you wanna enjoy.
 
-#Design:
+
 #Meal_info Service
 1. insert_one():
   *It will insert one document in our collection.
@@ -19,7 +19,7 @@ Every change done in Jupyter is being reflected in Compass.
 
 3. find():
   *We can query by multiple conditions and it will give all the meals satisfying the condition.
-  
+
 4.find_one():
   *We can query by multiple conditions and it will give only one meal satisfying the condition.
 
