@@ -7,8 +7,11 @@ To start with this first we will have to establish a connection between Jupyter 
 Every change done in Jupyter is being reflected in Compass.
 
 #Requirements
+
 -MongoDB
+
 -Json file / document file
+
 -Jupyter Notebook
 
 
