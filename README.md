@@ -1,4 +1,4 @@
-->Meal_Info
+# Meal_Info
 
 In this project I have used MongoDB for NOSQL database,Jupyter,MongoDB Compass,PyMongo,Built-in packages like JSON and meal_info.json file.
 As we are using MongoDB we can query and know about category of meal and the type of cuisine and meal has a unique id.
@@ -6,20 +6,20 @@ To query some of the commands which I have used are update_one,update_many,limit
 To start with this first we will have to establish a connection between Jupyter and MongoDB and here PyMongo comes in handy, it establishes a connection between them. 
 Every change done in Jupyter is being reflected in Compass.
 
-#Requirements
+# Requirements
 
--MongoDB
+- MongoDB
 
--Json file / document file
+- Json file / document file
 
--Jupyter Notebook
+- Jupyter Notebook
 
 
 # Service Function
 ->Search meal by meal_id, cuisine or the category of meal you wanna enjoy.
 
 
-#Meal_info Service
+# Meal_info Service
 1. insert_one():
   *It will insert one document in our collection.
   
